@@ -1,0 +1,245 @@
+.header-content {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.header-text {
+  color: #000; /* Adjust the color as needed */
+  
+ }
+ .slider-container {
+  position: absolute;
+  top: 100px;
+  width: 20%; /* Adjust the width as needed */
+  float: right;
+  margin-top: -20px;
+  margin-left: 550px;
+}
+
+.slider {
+  width: 200%;
+  height: 600px; /* Adjust the height as needed */
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Rest of your CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+ 
+  
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  
+  
+ 
+  header {
+    background-image: linear-gradient(to right bottom,lightblue, #064178f6);
+    border-radius: 02%;
+    padding: 12%;
+    position: relative;
+    
+  }
+  .header-logo {
+    max-height: 5000px;
+    margin-left: 50%;
+    margin-top: -40%;
+    
+    border-style: groove;
+    border-width: 0.8cm;
+    border-radius: 50%;
+    border-color: black;
+  }
+  h1{font-size: 500%;
+    color: black;
+    margin-top: 12%;
+    margin-left: -8%;
+      margin-bottom: -1%;}
+  h3{font-size: 150%;
+    color: lightblack;
+      padding: 0;
+      margin-top: 0%;
+      margin-left: -8%;
+    font-weight: 200;}
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  
+body {
+    padding: 20px;
+    
+    background-image: linear-gradient(to right bottom,rgb(25, 114, 162), #064178f6);
+      
+      
+  }
+  
+  .section-about {
+   
+    background-color: #eef5fab3;
+    text-align: justify;
+    font-style: normal;
+    color: white;
+    
+  }
+  
+  .section-services {
+    background-color: #eef5fab3;
+    
+  }
+  
+  .section-awards {
+    background-color: #eef5fab3;
+  }
+  .section-projects {
+    background-color: #eef5fab3;
+  }
+  
+  .section-contact {
+    background-color: #eef5fab3;
+  }
+  
+  
+
+
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color:  #eef5fab3;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+
+  
+  
+  .my-form {
+    width: 300px;
+  background: none;
+  padding: 20px;
+  margin-bottom: 50px;
+  border-radius: 40px;
+  box-shadow: 0 2px 6px #064178f6;
+  margin: auto;
+  height: 40vh;
+  margin-bottom: 20px;
+    
+  }
+  
+  .my-form input[type="text"],
+  .my-form textarea {
+    width: 90%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #064178f6;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .my-form button {
+    
+    width: 80%;
+    height: 30px;
+    background-color: #064178f6;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .my-form button:hover {
+    background-color: burlywood;
+  }
+  footer {
+    background-color: #064178f6;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+  }
